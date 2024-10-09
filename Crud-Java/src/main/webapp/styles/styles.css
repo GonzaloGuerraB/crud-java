@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Encabezados */
+h1 {
+    color: #333;
+    text-align: center; /* Centra el encabezado */
+}
+
+/* Mensajes de error */
+.error-message {
+    background-color: #f8d7da; /* Color de fondo suave (rojo claro) */
+    color: #721c24; /* Color del texto (rojo oscuro) */
+    border: 1px solid #f5c6cb; /* Borde más claro que el fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    margin: 20px 0; /* Margen superior e inferior */
+    font-size: 16px; /* Tamaño de fuente */
+    display: flex; /* Flexbox para alinear contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+.error-message .icon {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alterno */
+}
+
+/* Enlaces en la tabla */
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+input[type="submit"], .btn-volver, .button {
+    background-color: #5cb85c; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para mantener el tamaño de los botones */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 10px; /* Margen entre botones */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+input[type="submit"]:hover, .btn-volver:hover, .button:hover {
+    background-color: #4cae4c; /* Color al pasar el ratón */
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex; /* Usa flexbox para alinear los divs */
+    justify-content: center; /* Centra los divs horizontalmente */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para cada opción */
+.option {
+    background-color: #5cb85c; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px; /* Margen entre opciones */
+    padding: 20px; /* Espaciado interno */
+    flex: 1; /* Permite que los divs crezcan */
+    min-width: 250px; /* Ancho mínimo para cada opción */
+    text-align: center; /* Centra el texto */
+    transition: transform 0.3s; /* Transición suave */
+}
+
+.option:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+/* Estilos para los enlaces */
+.button {
+    color: white; /* Color de texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 20px; /* Tamaño de fuente más grande */
+}
+
+/* Pie de página */
+footer {
+    text-align: center; /* Centra el texto del pie de página */
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #777;
+}
